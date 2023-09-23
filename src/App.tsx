@@ -114,7 +114,7 @@ function App() {
 //<Video stream={mystrm} mute={true}/>
   return (
     <div className='PeerContainer'>
-      <Video stream={mystrm}></Video>
+      <Video stream={mystrm} mute={true}></Video>
       <Video stream={otherstrm}/>
 
       <label className='id'>{mid}</label>
