@@ -9,3 +9,7 @@
 # to run local
 ## npm install
 ## npm run dev
+
+## to move changes from local to server
+## npm run build
+## copy ./build ./SERVER/build
